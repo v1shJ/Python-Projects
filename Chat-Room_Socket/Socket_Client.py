@@ -5,7 +5,7 @@ from tkinter import scrolledtext
 
 HOST = input("Enter the IP Address: ")
 USER = input("Enter your username: ")
-PORT = int(input("Enter your PORT: "))
+PORT = int(input("Enter your PORT Address: "))
 
 class ChatClient:
     def __init__(self, root):
